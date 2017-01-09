@@ -15,7 +15,7 @@ class MyTableViewCell: UITableViewCell {
     override public class func initialize() {
         super.initialize()
         
-        let cell = self.lg_loadFromNib() as! UITableViewCell
+        let cell = self.lg_loadFromNib()
         cellHeight = cell.bounds.size.height
         cellReuseIdentifier = cell.reuseIdentifier!
     }

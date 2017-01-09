@@ -26,7 +26,7 @@ class MyCollectionViewCell: UICollectionViewCell {
     override public class func initialize() {
         super.initialize()
         
-        let cell = self.lg_loadFromNib() as! UICollectionViewCell
+        let cell = self.lg_loadFromNib()
         cellSize = cell.bounds.size
         cellReuseIdentifier = cell.reuseIdentifier!
     }

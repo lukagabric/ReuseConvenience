@@ -14,7 +14,7 @@
 		41385B6E1E1EBC5D00DB362C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41385B6C1E1EBC5D00DB362C /* LaunchScreen.storyboard */; };
 		41385B781E1EBCD400DB362C /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41385B761E1EBCD400DB362C /* MyTableViewCell.swift */; };
 		41385B791E1EBCD400DB362C /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41385B771E1EBCD400DB362C /* MyTableViewCell.xib */; };
-		41385B7B1E1EBD1D00DB362C /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41385B7A1E1EBD1D00DB362C /* UIView+Extension.swift */; };
+		41385B7B1E1EBD1D00DB362C /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41385B7A1E1EBD1D00DB362C /* Extension.swift */; };
 		41A7D8F91E1EC66E003887B0 /* MyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A7D8F81E1EC66E003887B0 /* MyCollectionViewController.swift */; };
 		41A7D8FC1E1EC68F003887B0 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A7D8FA1E1EC68F003887B0 /* MyCollectionViewCell.swift */; };
 		41A7D8FD1E1EC68F003887B0 /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41A7D8FB1E1EC68F003887B0 /* MyCollectionViewCell.xib */; };
@@ -30,7 +30,7 @@
 		41385B6F1E1EBC5D00DB362C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41385B761E1EBCD400DB362C /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 		41385B771E1EBCD400DB362C /* MyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
-		41385B7A1E1EBD1D00DB362C /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		41385B7A1E1EBD1D00DB362C /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		41A7D8F81E1EC66E003887B0 /* MyCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewController.swift; sourceTree = "<group>"; };
 		41A7D8FA1E1EC68F003887B0 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		41A7D8FB1E1EC68F003887B0 /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 				41385B651E1EBC5D00DB362C /* MyTableViewController.swift */,
 				41385B761E1EBCD400DB362C /* MyTableViewCell.swift */,
 				41385B771E1EBCD400DB362C /* MyTableViewCell.xib */,
-				41385B7A1E1EBD1D00DB362C /* UIView+Extension.swift */,
+				41385B7A1E1EBD1D00DB362C /* Extension.swift */,
 				41385B671E1EBC5D00DB362C /* Main.storyboard */,
 				41385B6A1E1EBC5D00DB362C /* Assets.xcassets */,
 				41385B6C1E1EBC5D00DB362C /* LaunchScreen.storyboard */,
@@ -109,7 +109,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = PROGOS;
 				TargetAttributes = {
 					41385B5F1E1EBC5D00DB362C = {
@@ -161,7 +161,7 @@
 				41385B661E1EBC5D00DB362C /* MyTableViewController.swift in Sources */,
 				41A7D8FC1E1EC68F003887B0 /* MyCollectionViewCell.swift in Sources */,
 				41385B641E1EBC5D00DB362C /* AppDelegate.swift in Sources */,
-				41385B7B1E1EBD1D00DB362C /* UIView+Extension.swift in Sources */,
+				41385B7B1E1EBD1D00DB362C /* Extension.swift in Sources */,
 				41A7D8F91E1EC66E003887B0 /* MyCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,6 +206,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -255,6 +256,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -285,6 +287,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AB6GWBVK74;
 				INFOPLIST_FILE = ReuseConvenience/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lukagabric.ReuseConvenience;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -298,6 +301,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AB6GWBVK74;
 				INFOPLIST_FILE = ReuseConvenience/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lukagabric.ReuseConvenience;
 				PRODUCT_NAME = "$(TARGET_NAME)";
